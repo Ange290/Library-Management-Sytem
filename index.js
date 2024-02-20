@@ -18,4 +18,11 @@ library = [{
     author:'James Clair',
     availability :false,
 },
-]
+];
+
+const addBooks = (book) =>{
+    console.log(library.length);
+}
+ library.push(book);
+ console.log(library.length);
+}
